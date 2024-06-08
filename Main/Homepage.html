@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        NeagaAirQualityControl
+    </title>
+    <link rel="icon" type="image/png" href="logo.png" sizes="64x64">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="C:\Users\jacob\OneDrive\Documents\Security Tech Course\2nd Year 2st Sem\TWT2231\Assignment\Assignment coding\Leaflet\leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="C:\Users\jacob\OneDrive\Documents\Security Tech Course\2nd Year 2st Sem\TWT2231\Assignment\Assignment coding\Leaflet\leaflet.js"></script>
+</head>
+
+<body>
+
+    <div class="head">
+        <img src="Logo.png" alt="Neaga air Quality Control Logo" class="logo"> <!--Logo and title-->
+        <h2 class="title">NeagaAirQuality</h2>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="Pollution Tracker by State.html">Pollution Tracker by State</a></li>         <!--Navigation bar-->
+                <li><a href="Causes and effect.html">Causes and effect</a></li>
+                <li><a href="Prevention.html">Prevention</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+     <!--Creating Sections for every categories in navigation bar-->
+        <!--Home section-->
+
+        <section class="section_1" id="Homepage">
+            <div class="Container_1">
+                <img src="C:\Users\jacob\OneDrive\Documents\Security Tech Course\2nd Year 2st Sem\TWT2231\Assignment\Assignment coding\images\Section_1.jpg" alt="KlCC">
+                <div class="text-container">               
+                <h2>Explore The South East Asia's</h2>
+                <h2>Air Quality Index</h2>
+                <p>Welcome to our Home Page! NeagaAirQuality provide the best services and technology to address your current air pollution level by providing real-time air quality data </p>
+            </div>
+            </div>  
+        </section>
+
+        <!--Map Section-->
+        <h2 style="text-align: center;">Air Pollution Index in Southern East Asia</h2>
+        <section class="section_2" id="map">
+            <div class="Container_2">
+            <script src="Map.js"></script>  
+        </section>
+
+ <!--Creating Sections for every categories in navigation bar-->
+        
+
+        <!--About section-->
+
+        <section class="section_3" id="about">
+            <div class="Container_3">
+                <div class="text-container">       
+                <h2>how to read the pollution index</h2>
+
+                <!--Table for Guidance in reading air pollution-->
+
+                <table>
+                    <tr>
+                      <th>AQI</th>
+                      <th>Air Pollution Level</th>
+                      <th>Health Implications</th>
+                      <th>Cautionary Statement (for PM2.5)</th>
+                    </tr>
+                    <tr>
+                      <td class="aqi aqi-0-50">0 - 50</td>
+                      <td>Good</td>
+                      <td>Air quality is considered satisfactory, and air pollution poses little
+                  or no risk</td>
+                      <td>None</td>
+                    </tr>
+                    <tr>
+                      <td class="aqi aqi-51-100">51 - 100</td>
+                      <td>Moderate</td>
+                      <td>The air quality is satisfactory state and pleasant for most people</td>
+                      <td>Active children and adults, and people with respiratory disease,
+                        such as asthma, should limit prolonged outdoor exertion</td>
+                    </tr>
+                    <tr>
+                      <td class="aqi aqi-101-150">101 - 150</td>
+                      <td>Unhealthy for Sensitive Groups</td>
+                      <td>Members of sensitive groups may experience health effects. The
+                        general public is not likely to be affected.</td>
+                      <td>embers of sensitive groups may experience health effects. The
+                        general public is not likely to be affected.</td>
+                    </tr>
+                    <tr>
+                      <td class="aqi aqi-151-200">151 - 200</td>
+                      <td>Unhealthy</td>
+                      <td>Everyone may begin to experience health effects; members of
+                        sensitive groups may experience more serious health effects</td>
+                      <td>Active children and adults, and people with respiratory disease,
+                        such as asthma, should avoid prolonged outdoor exertion;
+                        everyone else, especially children, should limit prolonged outdoor
+                        exertion</td>
+                    </tr>
+                    <tr>
+                      <td class="aqi aqi-201-300">201 - 300</td>
+                      <td>Very Unhealthy</td>
+                      <td>Health warnings of emergency conditions. The entire population
+                        is more likely to be affected.</td>
+                      <td>Active children and adults, and people with respiratory disease,
+                        such as asthma, should avoid all outdoor exertion; everyone else,
+                        especially children, should limit outdoor exertion.</td>
+                    </tr>
+                    <tr>
+                      <td class="aqi aqi-300">300+</td>
+                      <td>Hazardous</td>
+                      <td>Health alert: everyone may experience more serious health effects</td>
+                      <td>Everyone should avoid all outdoor exertion</td>
+                    </tr>
+                  </table>
+                  
+            </div>
+        </section>
+
+
+    <!--Footer section-->
+
+    <footer>
+        <p>&copy; 2024 Air Quality Insights</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,291 @@
+/*Top of the website*/
+.head {
+    margin-top: -10px;
+    display: flex; 
+    align-items: center; 
+    background-color: #616a71;
+  }
+  
+  
+ .logo {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 10000;
+    left: 100 ;
+    z-index: 1;
+ }
+  
+ .title {
+    margin-left: 70px;
+  }
+
+/*End of top*/
+
+/* Header Section (Navigation bar)*/
+
+header {
+    height: 45px;
+    background-color: #616a71;
+}
+
+head h1 {
+    -left: 100%;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 0px;
+    margin-left: -15px;
+    list-style: none;
+}
+
+header nav ul li {
+    padding-left: 45px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+    font-weight: 500;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* End of Header Section */
+
+/*Start of Section*/
+
+.section_1 {
+    height: 70vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_2 {
+    height: 70vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section_3 {
+    height: 70vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section_4 {
+    height: 70vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/*End of Section*/
+
+ 
+
+/*Start of Container*/
+
+/*Container_1*/
+
+.Container_1 {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container_1 img {
+    position: relative;
+    width: 500px;
+    height: 568px;
+    margin-top: -151px;
+    margin-right: 130px;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.Container_1 h2 {
+    margin-right: 30px;
+    margin-top: -40px;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Container_1 p, ul {
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+
+#Homepage {
+    background-color: #7397d4;
+}
+/*End of Contain*/
+
+/*Container_2*/
+
+.Container_2 {
+    margin-top: 10%;
+}
+
+.Container_2 h2 {
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Container_2 p, ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+#about {
+    background-color: #eedcdc;
+}
+/*End of Contain*/
+
+/*Container_3*/
+
+.Container_3 {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container_3 img {
+    width: 500px;
+    height: 500px;
+    margin-top: 360px;
+    right: 230px;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.Container_3 h2 {
+    text-align: center;
+    margin-top: -150px;
+    font-size: 0.7cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Creating Table*/
+
+.Container_3 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1500px;
+    height: auto;
+  }
+  
+.Container_3 td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    width: 10px;
+    height: auto;
+    padding: 8px;
+  }
+  
+.Container_3 tr:nth-child(even) {
+    background-color: #dddddd;
+    height: 3px;
+  }
+  
+  .aqi {
+    width: 100%;
+    height: 30px;
+    color: white;
+  }
+  
+  .aqi-0-50 {
+    background-color: #228B22;
+  }
+  
+  .aqi-51-100 {
+    background-color: #FFFF00;
+  }
+  
+  .aqi-101-150 {
+    background-color: #FFA500;
+  }
+  
+  .aqi-151-200 {
+    background-color: #DC143C;
+  }
+  
+  .aqi-201-300 {
+    background-color: #800080;
+  }
+  
+  .aqi-300 {
+    background-color: #800000;
+  }
+
+/*Table end*/
+
+#contact {
+    background-color: #333;
+    color: #fff;
+}
+
+/*End of Contain*/
+
+/*Container_4*/
+
+.Container_4 {
+    margin-top: 10%;
+}
+
+.Container_4 h2 {
+    margin-top: 2%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Container_4 p, ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+#map { 
+    width: 800px;
+    height: 500px; 
+    margin-left: 350px;
+}
+/*End of Contain*/
+
+
+footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+

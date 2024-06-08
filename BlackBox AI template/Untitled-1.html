@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Insights</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            height: 45px;
+        }
+
+        header nav ul {
+            display: flex;
+            margin-left: 70%;
+            list-style: none;
+        }
+
+        header nav ul li {
+            padding-left: 10%;
+        }
+
+        header a {
+            text-decoration: none;
+            color: brown;
+        }
+
+        section {
+            height: 100vh;
+            border: 1px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Container {
+            margin-top: 10%;
+        }
+
+        .Container img {
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        .Container h2 {
+            margin-top: 2%;
+            font-size: 3em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .Container p, ul {
+            margin-top: 2%;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            line-height: 40px;
+            display: flex;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        #intro {
+            background-image: url("my-background-image.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #about {
+            background-color: #f2f2f2;
+        }
+
+        #contact {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="Container">
+                <img src="my-air-quality-pic.jpg" alt="Air Quality Image">
+                <h2>Air Quality Insights</h2>
+                <p>Get real-time air quality data and insights to make informed decisions.</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="Container">
+                <img src="our-team-photo.jpg" alt="About Image">
+                <h2>About Us</h2>
+                <p>We are a team of environmental enthusiasts dedicated to providing accurate air quality data.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="Container">
+                <img src="contact-us-banner.png" alt="Contact Image">
+                <h2>Get in Touch</h2>
+                <p>Contact us for more information or to request custom air quality data.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Air Quality Insights</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+ /* Causes Section */
+
+.Causes {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Causes h2 {
+  text-align: center;
+  margin-top: -40px;
+  font-size: 3em;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Circle_Group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: -1%;
+}
+
+
+.circle {
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+  transition: transform 0.8s ease;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+}
+
+.tree {
+  background-color: red;
+  box-shadow: 0 0 22px #3336;
+}
+
+.car {
+  background-color: green;
+  box-shadow: 0 0 22px #3336;
+}
+
+.knowledge {
+  background-color: yellow;
+  box-shadow: 0 0 22px #3336;
+}
+
+.circle-image {
+  position: relative;
+  margin-left: 50px;
+  margin-top: -20px;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.circle:hover {
+  transform: scaleY(1.2);
+  width: 1100px;
+  border-radius: 0;
+  padding-bottom: 50px;
+  -webkit-clip-path: circle(70% at 50% 50%);
+  clip-path: circle(70% at 50% 50%);
+}
+
+  /* Effect Section */
+
+.Effect {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+.Effect h2 {
+    margin-left: 480px;
+    margin-top: -60px;
+    font-size: 3em;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.card {
+    background-color: #4CAF50;
+    margin-left: 30px;
+    transition: transform .2s; /* Animation */
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
