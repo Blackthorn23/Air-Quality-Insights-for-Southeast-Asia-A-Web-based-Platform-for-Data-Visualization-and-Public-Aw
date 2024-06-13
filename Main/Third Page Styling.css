@@ -49,6 +49,15 @@ main {
   box-shadow: 0 0 22px #3336;
 }
 
+p { 
+  color: transparent; /* make the text invisible */
+  user-select: none; /* prevent selection of the text */
+}
+
+p:hover {
+  color: black;
+}
+
 .car {
   background-color: green;
   box-shadow: 0 0 22px #3336;
