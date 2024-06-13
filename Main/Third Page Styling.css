@@ -1,9 +1,9 @@
 main {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
+
 
  /* Causes Section */
 
@@ -15,39 +15,148 @@ main {
   margin-top: 50px;
 }
 
-.Causes h2 {
-  text-align: center;
-  margin-top: -40px;
-  font-size: 3em;
-  align-items: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.main_title {
+  margin-top: 90px;
+  font-size: 35px;
+  margin-left: 450px;
+  font-weight: 90;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Circle_Group {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: -25px;
   gap: 50px;
-  padding-bottom: -1%;
 }
 
 
-.circle {
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 250px;
-  border-radius: 50%;
-  margin-top: 50px;
-  transition: transform 0.8s ease;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
+.circle_Group:hover {
+  
+  transform: 10px;
+  width: 300px;
+  border-radius: 50px;
+  padding-bottom: 50px;
 }
 
 .tree {
   background-color: red;
   box-shadow: 0 0 22px #3336;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 50px;
+  transition: transform 0.8s ease;
+  -webkit-transition: all 0.5s ;
+  -moz-transition: all 0.5s ;
 }
+
+.tree:hover {
+  transform: 10px;
+  width: 300px;
+  border-radius: 50px;
+  padding-bottom: 50px;
+}
+
+#tree {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 35px;
+  width: 250px;
+  height: 230px;
+  border-radius: 50%;
+  transition: .6s;
+  z-index: 99;
+}
+
+#tree:hover {
+  transform: 10px;
+  width: 300px;
+  border-radius: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.car {
+  background-color: green;
+  box-shadow: 0 0 22px #3336;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 50px;
+  transition: transform 0.8s ease;
+  -webkit-transition: all 0.5s ;
+  -moz-transition: all 0.5s ;
+}
+
+.car:hover {
+  transform: 10px;
+  width: 300px;
+  border-radius: 50px;
+  padding-bottom: 50px;
+}
+
+#car {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 35px;
+  width: 250px;
+  height: 230px;
+  border-radius: 120px;
+  transition: .6s;
+  z-index: 99;
+}
+
+#car:hover {
+  transform: 10px;
+  width: 300px;
+  border-radius: 50px;
+  padding-bottom: 50px;
+}
+
+.knowledge {
+  background-color: yellow;
+  box-shadow: 0 0 22px #3336;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 50px;
+  transition: transform 0.8s ease;
+  -webkit-transition: all 0.5s ;
+  -moz-transition: all 0.5s ;
+}
+
+.knowledge:hover {
+  transform: 10px;
+  width: 300px;
+  border-radius: 50px;
+  padding-bottom: 50px;
+}
+
+#knowledge {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 35px;
+  width: 250px;
+  height: 230px;
+  border-radius: 120px;
+  transition: .6s;
+  z-index: 99;
+}
+
+#knowledge:hover {
+  transform: 10px;
+  width: 300px;
+  border-radius: 50px;
+  padding-bottom: 50px;
+}
+
+h3{
+  color: transparent;
+  user-select: none; 
+}
+
 
 p { 
   color: transparent; /* make the text invisible */
@@ -56,35 +165,6 @@ p {
 
 p:hover {
   color: black;
-}
-
-.car {
-  background-color: green;
-  box-shadow: 0 0 22px #3336;
-}
-
-.knowledge {
-  background-color: yellow;
-  box-shadow: 0 0 22px #3336;
-}
-
-.circle-image {
-  position: relative;
-  margin-left: 50px;
-  margin-top: -20px;
-  width: 100px;
-  height: 100px;
-}
-
-
-
-.circle:hover {
-  transform: scaleY(1.2);
-  width: 1100px;
-  border-radius: 0;
-  padding-bottom: 50px;
-  -webkit-clip-path: circle(70% at 50% 50%);
-  clip-path: circle(70% at 50% 50%);
 }
 
   /* Effect Section */
