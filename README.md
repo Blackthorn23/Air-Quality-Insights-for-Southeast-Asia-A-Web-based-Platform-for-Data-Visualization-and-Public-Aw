@@ -1,9 +1,7 @@
 # NeagaAirQuality
 
 ## Overview
-NeagaAirQuality is a web application designed to provide real-time air pollution index (AQI) data for Southeast Asia. 
-This project aims to raise public awareness about air pollution, its causes, and its effects on human health and the environment. 
-The platform integrates real-time data retrieval, educational resources, and an intuitive user interface to help users make informed decisions regarding air quality.
+### NeagaAirQuality is a web application designed to provide real-time air pollution index (AQI) data for Southeast Asia. This project aims to raise public awareness about air pollution, its causes, and its effects on human health and the environment. The platform integrates real-time data retrieval, educational resources, and an intuitive user interface to help users make informed decisions regarding air quality.
 ---
 
 ## Features
@@ -28,21 +26,23 @@ The platform integrates real-time data retrieval, educational resources, and an 
 
 
 ## Installation & Deployment
----sh
-# Clone the repository
+
+###  **Clone the repository**  
+```sh 
 git clone https://github.com/yourusername/NeagaAirQuality.git
 cd NeagaAirQuality
----
+```
 
----sh
+```sh 
 # Install dependencies
 pip install -r requirements.txt  # For Python  
 npm install  # For Node.js  
-
+```
+```sh 
 # Run the application
 python app.py  # Flask/Django  
 npm start  # Node.js  
----
+```
 
 ## Future Enhancements
 
