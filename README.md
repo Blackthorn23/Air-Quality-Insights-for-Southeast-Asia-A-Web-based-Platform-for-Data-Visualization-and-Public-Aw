@@ -1,5 +1,7 @@
 # NeagaAirQuality
 
+<img width="616" height="273" alt="image" src="https://github.com/user-attachments/assets/02942c20-85ee-4340-80d2-2aa6126e22aa" />
+
 ## Overview
 ### NeagaAirQuality is a web application designed to provide real-time air pollution index (AQI) data for Southeast Asia. This project aims to raise public awareness about air pollution, its causes, and its effects on human health and the environment. The platform integrates real-time data retrieval, educational resources, and an intuitive user interface to help users make informed decisions regarding air quality.
 ---
@@ -10,7 +12,7 @@
 - User-Friendly Interface: Designed to be accessible to all generations, ensuring an effortless user experience.
 - Data Integration: Retrieves AQI data from reliable APIs and maintains historical records for trend analysis.
 - User Interaction: Supports feedback mechanisms to enhance usability and meet user needs.
-
+<img width="616" height="415" alt="image" src="https://github.com/user-attachments/assets/72c81137-50e0-41a0-9304-9cbe237024ac" />
 
 ## System Requirements
 - Frontend: HTML, CSS, JavaScript
